@@ -3,11 +3,8 @@ package com.rc.demo.mbg.mapper;
 import com.rc.demo.mbg.model.PmsBrand;
 import com.rc.demo.mbg.model.PmsBrandExample;
 import java.util.List;
-
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface PmsBrandMapper {
     int countByExample(PmsBrandExample example);
 

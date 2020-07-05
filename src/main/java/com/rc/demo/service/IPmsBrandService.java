@@ -1,7 +1,6 @@
 package com.rc.demo.service;
 
 import com.rc.demo.mbg.model.PmsBrand;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
